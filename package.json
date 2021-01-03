@@ -1,0 +1,40 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Calculate a result from a set of instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "node src/index.js",
+    "test:watch": "jest --watchAll --verbose",
+    "lint": "eslint --cache --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myriampuchaltgisep/Calculator.git"
+  },
+  "author": "Myriam Puchalt <Myriam.puchalt@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myriampuchaltgisep/Calculator/issues"
+  },
+  "homepage": "https://github.com/myriampuchaltgisep/Calculator#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-yaml": "^0.3.0",
+    "husky": "^4.3.6",
+    "jest": "^26.6.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1"
+  }
+}
