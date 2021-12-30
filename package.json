@@ -2,7 +2,7 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "Calculate a result from a set of instructions",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest --verbose",
     "start": "node src/index.js",

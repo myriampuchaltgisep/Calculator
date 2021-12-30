@@ -6,10 +6,13 @@ const multiply = [{ operation: 'multiply', value: 2 },
 { operation: 'apply', value: 3 }];
 const divide = [{ operation: 'divide', value: 2 },
 { operation: 'apply', value: 6 }];
+const invalid = [{ operation: 'divide', value: 2 },
+{ operation: 'apply', value: 6 }, {}]
 
 module.exports = {
   add,
   substract,
   multiply,
   divide,
+  invalid
 };
